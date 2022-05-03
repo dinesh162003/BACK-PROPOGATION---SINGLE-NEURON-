@@ -1,6 +1,7 @@
+# BACK-PROPOGATION---SINGLE-NEURON-
 ### EX NO: 04
-### DATE: 08-04-2022
-# <p align="center"> BACK-PROPOGATION---SINGLE-NEURON</p>
+### DATE:
+# <p align="center">BACK-PROPOGATION---SINGLE-NEURON<p/>
 ## AIM:
 
 To write a python program to perform Back Propagation with Single Neuron.
@@ -34,20 +35,19 @@ Backpropagation (backward propagation) is an important mathematical tool for imp
 ```
 /*
 Program to implement random classification.
-Developed by   : Dinesh.S
+Developed by   : DINESH.S
 Register Number :  212220230011
 */
 import numpy as np
-i=1.5     #initial input
-w_o=0.8   #initial weight
-y=0.5     #desired response
-
-r=0.01
+i=1.5    
+w_o=0.8  
+y=0.5    
+r=0.01   
 def dc_dw(a,y,i):
   dc_da=2*(a-y)
   da_dw=i
   return dc_da*da_dw
-
+  
 w=[w_o]
 a=[w_o*i]
 for j in range(0,100):
@@ -60,9 +60,11 @@ print(" ")
 print(w)
 ```
 
-
 ## OUTPUT:
-![Ex01 NN4](https://user-images.githubusercontent.com/75235813/164044185-19903194-e6e9-477f-b5df-ea9dfd4e3e1f.JPG)
+<img width="766" alt="NN PIC" src="https://user-images.githubusercontent.com/75235159/166470785-b9e69cb4-1c9a-4fdb-8d09-b5fa6e7c4d32.png">
+
+
+
 ## RESULT:
 
 Thus the Back Propagation with Single Neuron was successfully implemented using python programming.
